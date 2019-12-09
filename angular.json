@@ -118,8 +118,13 @@
               "devServerTarget": "git-search:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "git-search"
 }
